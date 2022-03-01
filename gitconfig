@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Albert Tian
+	email = atian@berkeley.edu
+[credential]
+	helper = osxkeychain
+[alias]
+	ac = !git add -A && git commit -m
+[init]
+	defaultBranch = main
